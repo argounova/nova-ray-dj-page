@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {
   Box,
   Typography,
@@ -9,15 +9,17 @@ import {
   InputLabel,
   FormControl,
 } from '@mui/material'
+import type { SelectChangeEvent } from '@mui/material/Select'
 import { motion } from 'framer-motion'
 
 
 export default function BookingForm() {
-  const [eventType, setEventType] = useState('');
+  const [eventType, setEventType] = useState('')
 
-  const handleEventChange = (event: React.ChangeEvent<{ target: { value: string } }>) => {
+  const handleEventChange = (event: SelectChangeEvent) => {
     setEventType(event.target.value);
-  };
+  }
+
 
   return (
     <motion.div
