@@ -7,7 +7,7 @@ A neon-infused landing page for a fictional 80s/90s-style female DJ, built with 
 - Hero section with animated glitch text and avatar
 - Modular sections for services, booking form, and footer
 - Framer Motion animations for smooth UI effects
-- Tailwind CSS for fast and responsive styling
+- Material UI for fast and responsive styling
 - Static booking form mockup (ready to integrate)
 - Optional retro-style audio player
 - Clean, component-based structure for easy updates
@@ -17,7 +17,7 @@ A neon-infused landing page for a fictional 80s/90s-style female DJ, built with 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
+- [Material UI](https://mui.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 
 ## 🛠️ Installation
