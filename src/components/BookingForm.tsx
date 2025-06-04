@@ -15,8 +15,8 @@ import { motion } from 'framer-motion'
 export default function BookingForm() {
   const [eventType, setEventType] = useState('');
 
-  const handleEventChange = (event: React.ChangeEvent<{ value: unknown }>) => {
-    setEventType(event.target.value as string);
+  const handleEventChange = (event: React.ChangeEvent<{ target: { value: string } }>) => {
+    setEventType(event.target.value);
   };
 
   return (
